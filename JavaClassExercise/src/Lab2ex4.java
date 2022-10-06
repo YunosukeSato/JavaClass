@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Lab3ex4 {
+public class Lab2ex4 {
   public static void main(String[] args) {
     Scanner scan1 = new Scanner(System.in);
     System.out.print("How many integers will be added? ");
