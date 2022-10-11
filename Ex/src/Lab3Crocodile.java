@@ -2,7 +2,7 @@ public class Lab3Crocodile extends Lab3Reptile{
 
   public Lab3Crocodile(int height, int weight, String animalType, String bloodType, String skinType, String bone,
       String eggType) {
-    super(height, weight, animalType, bloodType, skinType, bone, eggType);
+    super(height, weight, animalType, bloodType, skinType, bone, "Hard-shelled eggs");
   }
   
   public String showInfo() {

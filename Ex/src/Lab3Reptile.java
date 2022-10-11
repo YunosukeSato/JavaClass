@@ -1,7 +1,16 @@
-public class Lab3Reptile extends Lab3Animal{
+public class Lab3Reptile extends Lab3Animal {
   private String skinType;
   private String bone;
   private String eggType;
+
+  
+  
+  public Lab3Reptile(int height, int weight, String animalType, String bloodType) {
+    super(height, weight, animalType, bloodType);
+    skinType = "Dry Skin";
+    bone = "Backbone";
+    eggType = "Soft-shelled eggs";
+  }
 
   public Lab3Reptile(int height, int weight, String animalType, String bloodType, String skinType, String bone,
       String eggType) {
