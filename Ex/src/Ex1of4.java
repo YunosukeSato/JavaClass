@@ -1,4 +1,3 @@
-
 public class Ex1of4
 {
   public static void main(String[] args)
